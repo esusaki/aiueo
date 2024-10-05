@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <meta 
         property = "og:image"
-        content = "https://og-examples.vercel.sh/api/static"
+        content = "https://aiueo-lac.vercel.app/api/og?title=Vercel%E3%82%8F%E3%81%A3%E3%81%97%E3%82%87%E3%81%84%EF%BC%81"
       />
       <body>
         {children}
