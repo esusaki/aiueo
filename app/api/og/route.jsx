@@ -7,10 +7,7 @@ export async function GET(request) {
     const { searchParams } = new URL(request.url);
  
     // ?title=<title>
-    const hasTitle = searchParams.has('title');
-    const title = hasTitle
-      ? searchParams.get('title')?.slice(0, 100)
-      : 'My default title';
+    const title = searchParams.get('title')?.slice(0, 100)
  
     return new ImageResponse(
       (

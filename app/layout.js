@@ -13,6 +13,12 @@ export default function RootLayout({ children }) {
         property = "og:image"
         content = "https://aiueo-lac.vercel.app/api/og?title=Vercel%E3%82%8F%E3%81%A3%E3%81%97%E3%82%87%E3%81%84%EF%BC%81"
       />
+      <meta property="og:title" content="aiueo| SmartHR（スマートHR）"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://aiueo-lac.vercel.app"/>
+<meta property="og:site_name" content="SmartHR（スマートHR）"/>
+<meta property="og:description" content="SmartHRは、人事・労務の業務効率化からタレントマネジメントまで、働くすべての人の生産性向上を支える、「クラウド人事労務ソフト」です。"/>
+<meta property="og:locale" content="ja_JP"/>
       <body>
         {children}
       </body>
